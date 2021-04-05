@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="roomSelectionDiv">
+        <label for="room">Enter room to connect</label>
+        <input type="text" id="enteredRoomName">
+        <button id="createBtn">Create</button>
+        <br>
+        <label for="joinRoom">Enter Room Name to Join</label>
+        <input type="text" id="joinRoom">
+        <button id="joinBtn">Join</button>
+    </div>
+
+    <div id="videoDiv" style="display:none">
+        <video autoplay id="localVideo"></video>
+        <video autoplay id="remoteVideo"></video>
+    </div>
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+
+</html>
