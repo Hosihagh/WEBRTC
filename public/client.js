@@ -1,4 +1,4 @@
-const socket = io("127.0.0.1:3000")
+const socket = io("185.97.118.166:3000")
 const roomSelectionDiv = document.getElementById("roomSelectionDiv")
 const createBtn = document.getElementById("createBtn")
 const localVideo = document.getElementById("localVideo")
